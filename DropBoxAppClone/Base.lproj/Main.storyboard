@@ -190,8 +190,12 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rkz-Yk-i7f">
-                                <frame key="frameInset" minX="259" minY="18" width="116" height="47"/>
+                                <frame key="frameInset" minX="281" minY="6" width="116" height="47"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Create">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="A2b-Mi-alX" kind="modal" id="HkA-v2-bsV"/>
                                 </connections>
@@ -567,8 +571,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="SX8-uh-d7Z">
-                                <frame key="frameInset" minX="297" minY="12" width="62" height="74"/>
+                                <frame key="frameInset" minX="298" minY="12" width="68" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <state key="normal" title="Sign In"/>
                                 <connections>
                                     <action selector="signInButtonPressed:" destination="F5G-wm-Yx8" eventType="touchUpInside" id="JhX-3G-408"/>
                                     <segue destination="8Gy-E7-nq6" kind="modal" id="0rF-qx-CRL"/>
@@ -917,7 +923,6 @@
         <!--Navigation Controller-->
         <scene sceneID="dX3-B9-Sos">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QG5-KQ-Urh" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4m4-wr-Bum" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="favorites_tab" id="5jB-l5-sAI"/>
                     <toolbarItems/>
@@ -930,6 +935,7 @@
                         <segue destination="ezg-t9-g0O" kind="relationship" relationship="rootViewController" id="wG5-Nv-TVh"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QG5-KQ-Urh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2241" y="2709"/>
         </scene>
