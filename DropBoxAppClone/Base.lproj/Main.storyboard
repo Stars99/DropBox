@@ -580,6 +580,13 @@
                                     <segue destination="8Gy-E7-nq6" kind="modal" id="0rF-qx-CRL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="18q-nb-DiD">
+                                <frame key="frameInset" minX="79" minY="231" width="212" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="bYB-nC-DBP" kind="modal" id="DSV-t3-0Ua"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -607,6 +614,13 @@
                                     <segue destination="SQF-Go-ag2" kind="modal" id="oEU-Pj-D7G"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="o2g-XG-3Vj">
+                                <frame key="frameInset" minX="89" minY="232" width="209" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <segue destination="bYB-nC-DBP" kind="modal" id="QHE-A2-Ma0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -615,10 +629,10 @@
             </objects>
             <point key="canvasLocation" x="3757.5" y="858.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign In Issue View Controller-->
         <scene sceneID="kR7-i6-F19">
             <objects>
-                <viewController id="bYB-nC-DBP" sceneMemberID="viewController">
+                <viewController id="bYB-nC-DBP" customClass="SignInIssueViewController" customModule="DropBoxAppClone" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iMH-CH-MuG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -627,6 +641,27 @@
                                 <frame key="frameInset" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="XsU-RD-bZH">
+                                <frame key="frameInset" minX="95" minY="617" width="173" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="CancelButtonPressed:" destination="bYB-nC-DBP" eventType="touchUpInside" id="E1G-p4-5t3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xw7-UN-ngQ">
+                                <frame key="frameInset" minX="95" minY="556" width="173" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="SingleSigOnPressed:" destination="bYB-nC-DBP" eventType="touchUpInside" id="MQy-wF-eEa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Wdv-ka-yru">
+                                <frame key="frameInset" minX="95" minY="505" width="197" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="forgotPasswordPressed:" destination="bYB-nC-DBP" eventType="touchUpInside" id="zBj-nb-xbE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -971,9 +1006,10 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="rlX-EN-ZV5"/>
-        <segue reference="VkT-IR-ifI"/>
         <segue reference="5J4-Ug-cfq"/>
+        <segue reference="VkT-IR-ifI"/>
+        <segue reference="rlX-EN-ZV5"/>
+        <segue reference="DSV-t3-0Ua"/>
         <segue reference="ser-Tn-q42"/>
         <segue reference="y7c-x0-KlL"/>
     </inferredMetricsTieBreakers>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C40C6181D9A23BF00627E6A /* SignInIssueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C40C6171D9A23BF00627E6A /* SignInIssueViewController.swift */; };
 		3C72F09C1D98D92100D996A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F09B1D98D92100D996A1 /* AppDelegate.swift */; };
 		3C72F09E1D98D92100D996A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C72F09D1D98D92100D996A1 /* ViewController.swift */; };
 		3C72F0A11D98D92100D996A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C72F09F1D98D92100D996A1 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C40C6171D9A23BF00627E6A /* SignInIssueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInIssueViewController.swift; sourceTree = "<group>"; };
 		3C72F0981D98D92100D996A1 /* DropBoxAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropBoxAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C72F09B1D98D92100D996A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C72F09D1D98D92100D996A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				3C72F0D11D99722600D996A1 /* TermsOfServicesViewController.swift */,
 				3C72F0D31D9996BB00D996A1 /* SettingScrollViewController.swift */,
 				3C72F0D51D999F3D00D996A1 /* SignUpSettingViewController.swift */,
+				3C40C6171D9A23BF00627E6A /* SignInIssueViewController.swift */,
 			);
 			path = DropBoxAppClone;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				3C72F0D01D98F1FE00D996A1 /* SignInViewController.swift in Sources */,
 				3C72F0D21D99722600D996A1 /* TermsOfServicesViewController.swift in Sources */,
 				3C72F0D61D999F3D00D996A1 /* SignUpSettingViewController.swift in Sources */,
+				3C40C6181D9A23BF00627E6A /* SignInIssueViewController.swift in Sources */,
 				3C72F0CA1D98E25D00D996A1 /* CreateAccountRootViewController.swift in Sources */,
 				3C72F09E1D98D92100D996A1 /* ViewController.swift in Sources */,
 				3C72F09C1D98D92100D996A1 /* AppDelegate.swift in Sources */,
